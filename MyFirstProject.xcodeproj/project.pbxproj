@@ -6,11 +6,28 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		9F1969D31D822B80001DFB81 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		9F1969D41D822B80001DFB81 /* app.yaml */ = {isa = PBXFileReference; lastKnownFileType = text; path = app.yaml; sourceTree = "<group>"; };
+		9F1969D51D822B80001DFB81 /* hello.go */ = {isa = PBXFileReference; lastKnownFileType = text; path = hello.go; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		9F1969CB1D822B67001DFB81 = {
 			isa = PBXGroup;
 			children = (
+				9F1969D21D822B80001DFB81 /* helloworld */,
 			);
+			sourceTree = "<group>";
+		};
+		9F1969D21D822B80001DFB81 /* helloworld */ = {
+			isa = PBXGroup;
+			children = (
+				9F1969D31D822B80001DFB81 /* .gitignore */,
+				9F1969D41D822B80001DFB81 /* app.yaml */,
+				9F1969D51D822B80001DFB81 /* hello.go */,
+			);
+			path = helloworld;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
